@@ -56,16 +56,8 @@ The full form of an ARM is an advanced reduced instruction set computer (RISC) m
 11. click on debug option 
 ![image](https://user-images.githubusercontent.com/36288975/226189625-37daa9a3-62e9-42b5-a5ce-2ac63345905b.png)
 
-12. connect the  iot board to power supply and usb 
-
 13. After connecting open the STM cube programmer 
 ![image](https://user-images.githubusercontent.com/36288975/227599356-9c465b7e-6bd0-436b-b4e8-742ed25e06ce.png)
-
-14. click on UART and click on connect 
-![image](https://user-images.githubusercontent.com/36288975/227599458-26976d4a-f2d4-49f0-a49f-31f46eb15761.png)
-
-15. once it is connected , click on Erasing and programming option 
-![image](https://user-images.githubusercontent.com/36288975/227599531-f03d277e-440f-4f8a-8875-97f8e8058c71.png)
 
 16. flash the bin or hex file as shown below by switching the switch to flash mode 
 

@@ -1,8 +1,8 @@
-###  DATE: 
+###  DATE: 24/08/2024
 
-###  NAME: 
-###  ROLL NO :
-###  DEPARTMENT: 
+###  NAME: AJAY M
+###  ROLL NO :212223040009
+###  DEPARTMENT: BE CSE
 
 
 # EXPERIMENT--02-INTERFACING-A-DIGITAL-INPUT-TO-IOT-DEVELOPMENT-BOARD-
@@ -77,12 +77,25 @@ The full form of an ARM is an advanced reduced instruction set computer (RISC) m
 
 
 ## STM 32 CUBE PROGRAM :
-
+while (1)
+  {
+    /* USER CODE END WHILE */
+	  if (IRstatus == 1){
+		  HAL_GPIO_WritePin(GPIOA,GPIO_PIN_0,GPIO_PIN_RESET);
+		  HAL_Delay(1000);
+		  HAL_GPIO_WritePin(GPIOA,GPIO_PIN_0,GPIO_PIN_SET);
+		  HAL_Delay(1000);
+	  }
+	  else{
+		  HAL_GPIO_WritePin(GPIOA,GPIO_PIN_0,GPIO_PIN_RESET);
+		  HAL_Delay(1000);
+	  }
 
 
 ## Output  :
  
- 
+ ![image](https://github.com/user-attachments/assets/70c905fa-bfce-456e-81fb-9e7650e5d214)
+
  
  
 ## Result :
